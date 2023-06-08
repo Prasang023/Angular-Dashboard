@@ -1,0 +1,20 @@
+.nav-items {
+    padding-top: 15px;
+    .nav-item {
+      padding: 15px 30px;
+      font-weight: bold;
+      cursor: pointer;
+      @media only screen and (max-width: 1300px) {
+        padding: 15px 30px;
+      }
+      &:hover {
+        background-color: #cccccc;
+      }
+      span {
+        display: inline;
+        @media only screen and (max-width: 1300px) {
+          display: none;
+        }
+      }
+    }
+  }
